@@ -39,7 +39,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: tmotw/lab8:lab8L80
+          images: tmotw/lab8:lab8
 
       - name: Build and push Docker image
         id: docker_build
